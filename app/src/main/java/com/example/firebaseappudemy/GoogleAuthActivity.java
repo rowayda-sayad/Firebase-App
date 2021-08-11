@@ -39,7 +39,7 @@ public class GoogleAuthActivity extends AppCompatActivity {
 
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken("YOUR KEY HERE")
                 .requestEmail()
                 .build();
 
